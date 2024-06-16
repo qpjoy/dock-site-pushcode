@@ -2,32 +2,22 @@ const MenuLink = [
   {
     id: 1,
     hyper_link: "#home",
-    link_name: "Home",
+    link_name: "首页",
   },
   {
     id: 2,
-    hyper_link: "#services",
-    link_name: "Services",
+    hyper_link: "#download",
+    link_name: "下载",
   },
   {
     id: 3,
-    hyper_link: "#work",
-    link_name: "Work",
+    hyper_link: "#members",
+    link_name: "会员中心",
   },
   {
     id: 4,
-    hyper_link: "#about",
-    link_name: "About",
-  },
-  {
-    id: 5,
-    hyper_link: "#projects",
-    link_name: "Projects",
-  },
-  {
-    id: 6,
-    hyper_link: "#contact",
-    link_name: "Contact Us",
+    hyper_link: "#tutor",
+    link_name: "使用教程",
   },
 ];
 

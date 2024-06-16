@@ -30,7 +30,7 @@ function Header() {
     <header>
       <nav className="nav bd_grid">
         <a href="#" className="nav_logo">
-          Personal
+          PushCode推流助手
         </a>
 
         <ul className={isMenuActive ? "show" : ""} id="menu">

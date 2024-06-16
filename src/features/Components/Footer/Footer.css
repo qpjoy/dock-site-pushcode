@@ -1,13 +1,13 @@
 footer {
   background-color: var(--second-color);
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
 .footer_title {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: var(--mb-4);
 }
 
@@ -22,10 +22,15 @@ footer {
 }
 
 .footerSocial a:hover {
-  color: var(--first-color);
+  color: var(--primary-color);
   transition: all 0.3s ease-in-out;
 }
 
 .copy_right {
   font-family: "Poppins";
+}
+
+.footer_link,
+.copy_right {
+  font-size: 0.8rem;
 }

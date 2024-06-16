@@ -12,11 +12,11 @@ import Header from "./features/Components/Header";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="pushcode">
         <Routes>
           {/* <Route path="home" index element={<AppLayout />} /> */}
           <Route path="/" element={<AppLayout />}>
-            <Route index path="main" element={<MainContainer />} />
+            <Route index path="" element={<MainContainer />} />
             <Route path="home" element={<Home />} />
             <Route path="tutor" element={<Tutor />} />
           </Route>

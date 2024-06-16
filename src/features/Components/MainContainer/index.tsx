@@ -1,11 +1,21 @@
 import "./MainContainer.css";
 
 import Home from "@/features/Home";
-import ProjectSection from "@/features/Projects";
 // import About from "@/features/About";
 import Footer from "../Footer";
 
+import LiveSection from "@/features/Lives";
+import Member from "@/features/Member";
+import ContactDialog from "../Dialog/ContactDialog";
+import { useState } from "react";
+
 function MainContainer() {
+  const [open, setOpen] = useState(false);
+
+  const handleClose = (value: any) => {
+    setOpen(false);
+  };
+
   return (
     <main>
       {/* Home Section */}
@@ -13,8 +23,12 @@ function MainContainer() {
       {/* About Section */}
       {/* <About /> */}
       {/* Project Section */}
-      <ProjectSection />
+      <LiveSection />
+
+      <Member setOpen={setOpen} />
       <Footer />
+
+      <ContactDialog open={open} handleClose={handleClose} />
     </main>
   );
 }

@@ -1,21 +1,19 @@
 import "./Footer.css";
-import HomeSocial from "@/features/Home/HomeSocial";
 
 function Footer() {
   return (
     <footer>
-      <p className="footer_title">Cathy James</p>
+      <p className="footer_title">PushCode推流助手</p>
 
-      <div className="footerSocial">
-        {HomeSocial &&
-          HomeSocial.map((social: any) => (
-            <a href={social.iconLink} key={social.id}>
-              {social.iconName}
-            </a>
-          ))}
+      <div className="footer_link">
+        <span>软件许可协议</span>
+        <span>隐私条款</span>
+        <span>联系我们</span>
       </div>
 
-      <p className="copy_right">&#169; 2020 copyright all right reserved</p>
+      <p className="copy_right">
+        &#169; 2024 PushCode 版权所有 沪ICP备2023029346
+      </p>
     </footer>
   );
 }
