@@ -1,4 +1,3 @@
-import classNames from "classnames";
 import ArrowRight from "@/assets/img/arrow-right.svg";
 import { download } from "@/utils";
 

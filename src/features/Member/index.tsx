@@ -1,5 +1,3 @@
-import { useState } from "react";
-import ContactDialog from "../Components/Dialog/ContactDialog";
 import "./Member.css";
 import Check from "@/assets/img/check.svg";
 
@@ -14,7 +12,7 @@ function Member({ setOpen }: any) {
       <div className="member_container">
         <div className="member_title">月会员</div>
         <div className="member_price">
-          <span>$15 </span>/月
+          <span>￥15 </span>/月
         </div>
 
         <div className="member_discount">折合每天0.5元</div>
@@ -34,7 +32,7 @@ function Member({ setOpen }: any) {
       <div className="member_container">
         <div className="member_title">月会员</div>
         <div className="member_price">
-          <span>$36 </span>/月
+          <span>￥36 </span>/月
         </div>
 
         <div className="member_discount">折合每天0.4元</div>
@@ -54,7 +52,7 @@ function Member({ setOpen }: any) {
       <div className="member_container">
         <div className="member_title">月会员</div>
         <div className="member_price">
-          <span>$108 </span>/月
+          <span>￥108 </span>/月
         </div>
 
         <div className="member_discount">折合每天0.3元</div>

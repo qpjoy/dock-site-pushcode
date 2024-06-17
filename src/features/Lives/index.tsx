@@ -2,7 +2,6 @@ import "./Live.css";
 
 import LiveImages from "./LiveImage";
 import ImageContainer from "./ImageContainer";
-import { FaArrowRight } from "react-icons/fa";
 import Download from "../Components/Download";
 
 function LiveSection() {

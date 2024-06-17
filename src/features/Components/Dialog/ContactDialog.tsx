@@ -1,4 +1,4 @@
-import { Dialog, DialogTitle } from "@mui/material";
+import { Dialog } from "@mui/material";
 import QYWX from "@/assets/企业微信.jpeg";
 
 function ContactDialog(props: any) {

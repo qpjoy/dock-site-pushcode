@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MenuList from "./MenuList";
 import MenuLink from "./MenuLink.js";
 import "./Header.css";

@@ -25,8 +25,10 @@
   display: flex;
   position: sticky;
   flex-direction: column;
+  justify-content: center;
   width: 80%;
-  min-width: 530px;
+  /* min-width: 780px;
+  min-width: 530px; */
   height: 26vh;
   min-height: 160px;
   padding: 1rem;
@@ -45,7 +47,7 @@
   color: #ec6a5e;
 }
 .use-content {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1rem;
   font-size: 1rem;
 }
 .use-content a {
@@ -64,6 +66,8 @@
 
 .why-us {
   display: flex;
+  width: 80%;
+  margin: auto;
   font-weight: 600;
   flex-direction: column;
   align-items: center;
@@ -77,14 +81,14 @@
 .why-content {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
-  gap: 12rem;
+  gap: 6rem;
 }
 
 .why-item {
   display: flex;
-  width: 8rem;
+  min-width: 8rem;
   flex-direction: column;
   align-items: center;
 }

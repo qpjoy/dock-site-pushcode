@@ -9,9 +9,9 @@ import "./Home.css";
 // import Star2 from "@/assets/img/star_2.svg";
 // import Star3 from "@/assets/img/star_3.svg";
 // import medal from "@/assets/img/medal.svg";
-import { useEffect, useLayoutEffect } from "react";
-import gsap, { TimelineLite } from "gsap";
-import { FaArrowRight } from "react-icons/fa";
+// import { useEffect, useLayoutEffect } from "react";
+// import gsap, { TimelineLite } from "gsap";
+// import { FaArrowRight } from "react-icons/fa";
 
 import Effecient from "@/assets/img/effecient.svg";
 import Continus from "@/assets/img/continus.svg";

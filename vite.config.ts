@@ -5,6 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/pushcode/",
   plugins: [react()],
   optimizeDeps: {
     // include: ["react/jsx-runtime"],

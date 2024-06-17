@@ -12,7 +12,7 @@ import { useState } from "react";
 function MainContainer() {
   const [open, setOpen] = useState(false);
 
-  const handleClose = (value: any) => {
+  const handleClose = () => {
     setOpen(false);
   };
 
