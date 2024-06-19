@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "@/features/Home";
 import AppLayout from "@/layouts/AppLayout";
 import About from "@/features/About";
-import Tutor from "@/features/Tutor/index.mdx";
+import Tutor from "@/features/Tutor";
 import MainContainer from "./features/Components/MainContainer";
 import { BASE_URL } from "./utils/variables";
 
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter basename={BASE_URL}>
         <Routes>
           {/* <Route path="home" index element={<AppLayout />} /> */}
-          <Route path="/" element={<AppLayout />}>
+          <Route path="" element={<AppLayout />}>
             <Route index path="" element={<MainContainer />} />
             <Route path="home" element={<Home />} />
             <Route path="tutor" element={<Tutor />} />

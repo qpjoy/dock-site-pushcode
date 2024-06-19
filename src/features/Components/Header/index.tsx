@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MenuList from "./MenuList";
 import MenuLink from "./MenuLink.js";
-import "./Header.css";
+import "./Header.scss";
 
 // Icons
 import { BiMenuAltRight } from "react-icons/bi";

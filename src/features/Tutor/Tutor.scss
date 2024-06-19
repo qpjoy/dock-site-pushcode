@@ -7,25 +7,32 @@
   );
 }
 
+// https://www.w3schools.com/cssref/playdemo.php?filename=playcss_list-style-type&preval=lower-roman
 .tutor-content {
   padding: 2rem 4rem;
 
   ul {
     display: block;
+    list-style-type: decimal;
   }
 
-  & > ul > li {
-    position: "relative";
+  ul ul {
+    list-style-type: lower-latin;
   }
-  & > ul > li::before {
-    content: "";
-    position: "absolute";
-    background-color: gray;
-    border-radius: "50%";
+
+  ul ul ul {
+    list-style-type: lower-roman;
   }
+
+  // & > ul > li::before {
+  //   content: "";
+  //   position: "absolute";
+  //   background-color: gray;
+  //   border-radius: "50%";
+  // }
 }
 
 .tutor-content img {
   width: 80%;
-  margin: auto;
+  margin: 1rem auto;
 }
