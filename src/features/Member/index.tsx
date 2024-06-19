@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import "./Member.css";
 import Check from "@/assets/img/check.svg";
+import { CustomerContext } from "@/contexts/CustomerContext";
 
-function Member({ setOpen }: any) {
+function Member() {
+  const { setOpen } = useContext(CustomerContext);
+
   const contactService = (e: any) => {
     e.preventDefault();
     setOpen(true);

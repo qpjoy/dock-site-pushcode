@@ -34,3 +34,12 @@ footer {
 .copy_right {
   font-size: 0.8rem;
 }
+
+.copy_right a {
+  color: #fff;
+}
+
+.copy_right a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,8 +1,14 @@
 import { Dialog } from "@mui/material";
-import QYWX from "@/assets/企业微信.jpeg";
+import QYWX from "@/assets/pushcode/企业微信.png";
+import { useContext } from "react";
+import { CustomerContext } from "@/contexts/CustomerContext";
 
-function ContactDialog(props: any) {
-  const { handleClose, open } = props;
+function ContactDialog() {
+  const { open, setOpen } = useContext(CustomerContext);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <Dialog
@@ -21,8 +27,8 @@ function ContactDialog(props: any) {
           display: "block",
           width: "100%",
           height: "100%",
-          maxWidth: "400px",
-          maxHeight: "400px",
+          maxWidth: "700px",
+          maxHeight: "700px",
           objectFit: "contain",
           objectPosition: "center",
           borderRadius: "10px",

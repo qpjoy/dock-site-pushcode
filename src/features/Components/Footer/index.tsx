@@ -12,7 +12,10 @@ function Footer() {
       </div>
 
       <p className="copy_right">
-        &#169; 2024 PushCode 版权所有 沪ICP备2023029346
+        &#169; 2024 PushCode 版权所有{" "}
+        <a href="https://beian.miit.gov.cn/" target="_blank">
+          沪ICP备2023029346
+        </a>
       </p>
     </footer>
   );

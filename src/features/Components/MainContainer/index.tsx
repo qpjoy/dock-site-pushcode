@@ -7,15 +7,8 @@ import Footer from "../Footer";
 import LiveSection from "@/features/Lives";
 import Member from "@/features/Member";
 import ContactDialog from "../Dialog/ContactDialog";
-import { useState } from "react";
 
 function MainContainer() {
-  const [open, setOpen] = useState(false);
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
   return (
     <main className="mainBox">
       {/* Home Section */}
@@ -25,10 +18,8 @@ function MainContainer() {
       {/* Project Section */}
       <LiveSection />
 
-      <Member setOpen={setOpen} />
+      <Member />
       <Footer />
-
-      <ContactDialog open={open} handleClose={handleClose} />
     </main>
   );
 }

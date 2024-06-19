@@ -6,14 +6,11 @@ import Companion from "@/assets/pushcode/直播伴侣.png";
 import Automation from "@/assets/pushcode/自动化.png";
 import OBSServer from "@/assets/pushcode/OBS服务器.png";
 
+import CustomerService from "./CustomerService";
+
 <h1 align="center">PushCode 推流助手使用文档</h1>
 
-<span>
-  欢迎使用 PushCode 推流助手，使用过程中有任何问题均可联系
-  官方客服企微，提供技术支持。
-</span>
-
----
+<CustomerService />
 
 ### 使用教程
 
@@ -26,9 +23,9 @@ import OBSServer from "@/assets/pushcode/OBS服务器.png";
     - 打开「开始」菜单，输入 Windows PowerShell
     - 管理员身份运行 PowerShell，输入软件对应安装路径：C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command "set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
 
-<img alt="协议" src={Protocol} />
+    <img alt="协议" src={Protocol} style={{ width: "80%" }} />
 
-<img alt="安装向导" src={Install} />
+    <img alt="安装向导" src={Install} style={{ width: "80%" }} />
 
 - 打开 PushCode 软件后进行账号注册，每台设备仅限注册一个账号，每个账号有
   7 天免费试用期，试用期结束后需付费后继续使用
@@ -43,23 +40,20 @@ import OBSServer from "@/assets/pushcode/OBS服务器.png";
       OBS 并自动完成设置，手动选择对应网卡（打开电脑设置 - 网络状态 - 更改适配器选项，即可查询目前使用的网卡），打开「抖音直播伴侣」软件，点击「开始直播」后，系统将自动开始
       OBS 直播，直播开始后关闭「抖音直播伴侣」，下播点击 OBS 「停止直播」即可。
 
-    <img alt="自动化" src={Automation} />
+      <img alt="自动化" src={Automation} />
 
   - 手动开播流程
 
-        - 点击 PushCode 软件左侧「抖音服务」，选择对应网卡（打开电脑设置 - 网络状态 - 更改适配器选项，即可查询目前使用的网卡），打开「抖音直播伴侣」软件，点击「开始直播」后，复制获取的「服务器」「串流密钥」到 OBS，将内容粘贴在「直播 - 服务器/推流码」，点击「应用」和「确定」
+    - 点击 PushCode 软件左侧「抖音服务」，选择对应网卡（打开电脑设置 - 网络状态 - 更改适配器选项，即可查询目前使用的网卡），打开「抖音直播伴侣」软件，点击「开始直播」后，复制获取的「服务器」「串流密钥」到 OBS，将内容粘贴在「直播 - 服务器/推流码」，点击「应用」和「确定」
 
-        <img alt="OBS服务器" src={OBSServer} />
+      <img alt="OBS服务器" src={OBSServer} />
 
+    - 打开「抖音直播伴侣」，右上角点击「退出并关闭直播间」
 
-        - 打开「抖音直播伴侣」，右上角点击「退出并关闭直播间」
+      <img alt="直播伴侣" src={Companion} />
 
+    - 点击 OBS「开始直播」
 
-        <img alt="直播伴侣" src={Companion} />
+      <img alt="开始直播" src={Live} />
 
-
-        - 点击 OBS「开始直播」
-
-        <img alt="开始直播" src={Live} />
-
-        - 关闭 PushCode 软件，正常进行后续直播，下播点击 OBS 「停止直播」即可。
+    - 关闭 PushCode 软件，正常进行后续直播，下播点击 OBS 「停止直播」即可。
