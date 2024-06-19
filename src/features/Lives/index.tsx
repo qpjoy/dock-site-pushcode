@@ -6,7 +6,7 @@ import Download from "../Components/Download";
 
 function LiveSection() {
   return (
-    <section className="lives section" id="lives">
+    <section className="lives section section-box" id="lives">
       <div className="circle lives_circleOne"></div>
       <div className="circle lives_circleThree"></div>
 

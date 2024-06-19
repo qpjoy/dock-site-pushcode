@@ -26,7 +26,8 @@
   position: sticky;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
+  align-items: center;
+  /* width: 80%; */
   /* min-width: 780px;
   min-width: 530px; */
   height: 26vh;
@@ -66,8 +67,8 @@
 
 .why-us {
   display: flex;
-  width: 80%;
-  margin: auto;
+  /* width: 80%;
+  margin: auto; */
   font-weight: 600;
   flex-direction: column;
   align-items: center;

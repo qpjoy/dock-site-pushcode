@@ -1,0 +1,31 @@
+.tutor-header {
+  height: 4rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 109, 160, 1),
+    rgba(14, 109, 150, 1)
+  );
+}
+
+.tutor-content {
+  padding: 2rem 4rem;
+
+  ul {
+    display: block;
+  }
+
+  & > ul > li {
+    position: "relative";
+  }
+  & > ul > li::before {
+    content: "";
+    position: "absolute";
+    background-color: gray;
+    border-radius: "50%";
+  }
+}
+
+.tutor-content img {
+  width: 80%;
+  margin: auto;
+}

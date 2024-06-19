@@ -8,7 +8,7 @@ function Member({ setOpen }: any) {
   };
 
   return (
-    <div className="member" id="members">
+    <div className="member section-box" id="members">
       <div className="member_container">
         <div className="member_title">月会员</div>
         <div className="member_price">

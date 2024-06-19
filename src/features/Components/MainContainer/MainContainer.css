@@ -12,3 +12,8 @@ main {
   height: auto;
   z-index: -1;
 }
+
+.section-box {
+  width: 80%;
+  margin: auto;
+}

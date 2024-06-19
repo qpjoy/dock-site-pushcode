@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import "@/features/Components/Header/Header.css";
+// import "@/features/Components/Header/Header.css";
 import Home from "@/features/Home";
 import AppLayout from "@/layouts/AppLayout";
 import About from "@/features/About";
-import Tutor from "@/features/Tutor";
+import Tutor from "@/features/Tutor/index.mdx";
 import MainContainer from "./features/Components/MainContainer";
 import { BASE_URL } from "./utils/variables";
 

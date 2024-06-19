@@ -16,7 +16,7 @@
 
 .lives_container {
   margin: auto;
-  width: 80%;
+  /* width: 80%; */
   row-gap: 2rem;
 }
 

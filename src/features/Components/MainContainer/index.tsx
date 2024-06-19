@@ -17,7 +17,7 @@ function MainContainer() {
   };
 
   return (
-    <main>
+    <main className="mainBox">
       {/* Home Section */}
       <Home />
       {/* About Section */}

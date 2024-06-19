@@ -117,7 +117,7 @@ function Home() {
       <section className="home bd_grid" id="home">
         <div className="home_bg"></div>
 
-        <div className="zhibo-box">
+        <div className="section-box zhibo-box">
           <div className="use-pushcode">
             <div className="use-title">
               直播就用
@@ -185,8 +185,8 @@ function Home() {
         </div>
       </div> */}
       </section>
-      <section className=" bd_grid">
-        <div className="why-us" id="why-us">
+      <section className="bd_grid">
+        <div className="section-box why-us" id="why-us">
           <div className="why-title section_title_">为什么选择我们</div>
 
           <div className="why-content">

@@ -3,8 +3,9 @@
   flex-direction: row;
   padding: 0 var(--mb-2);
   justify-content: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   margin-bottom: 2rem;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 1024px) {
