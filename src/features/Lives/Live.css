@@ -55,3 +55,29 @@
     column-gap: 2rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .lives_container.bd_grid {
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    column-gap: 2rem;
+  }
+
+  .lives_img {
+    border-radius: 10px;
+  }
+
+  .lives_item span {
+    font-size: 0.14rem;
+    font-weight: 600;
+    margin-top: 0.1rem;
+  }
+  .lives {
+    .use-download {
+      margin: 0.3rem auto;
+      padding: 0.06rem 0.12rem;
+      width: 1.1rem;
+      font-size: 0.12rem;
+    }
+  }
+}

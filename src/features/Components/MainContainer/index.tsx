@@ -6,7 +6,6 @@ import Footer from "../Footer";
 
 import LiveSection from "@/features/Lives";
 import Member from "@/features/Member";
-import ContactDialog from "../Dialog/ContactDialog";
 
 function MainContainer() {
   return (

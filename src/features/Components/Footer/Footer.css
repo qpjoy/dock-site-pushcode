@@ -11,21 +11,6 @@ footer {
   margin-bottom: var(--mb-4);
 }
 
-.footerSocial {
-  margin-bottom: var(--mb-4);
-}
-
-.footerSocial a {
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
-}
-
-.footerSocial a:hover {
-  color: var(--primary-color);
-  transition: all 0.3s ease-in-out;
-}
-
 .copy_right {
   font-family: "Poppins";
 }
@@ -42,4 +27,20 @@ footer {
 .copy_right a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 0.3rem 0.1rem;
+
+    .footer_title {
+      font-size: 0.14rem;
+      margin-bottom: var(--mb-4);
+    }
+
+    .footer_link,
+    .copy_right {
+      font-size: 0.111rem;
+    }
+  }
 }

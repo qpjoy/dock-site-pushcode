@@ -8,7 +8,12 @@ function Tutor() {
   return (
     <div className="tutor">
       <div className="tutor-header"></div>
-      <div className="tutor-content markdown-body section-box">
+      <div
+        className="tutor-content markdown-body section-box"
+        style={{
+          width: "60%",
+        }}
+      >
         <Content />
       </div>
 

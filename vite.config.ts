@@ -1,7 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import mdx from "@mdx-js/rollup";
+
+import postCssPxToRem from "postcss-pxtorem";
 // import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
@@ -32,6 +33,28 @@ export default defineConfig(async () => {
         "@assets": path.resolve(__dirname, "./src/assets"),
         // "@src": "/src",
         "@components": path.resolve(__dirname, "./src/components"),
+      },
+    },
+    css: {
+      postcss: {
+        plugins: [
+          postCssPxToRem({
+            rootValue: 75,
+            propList: [
+              "font",
+              "font-size",
+              "line-height",
+              "letter-spacing",
+              "word-spacing",
+            ],
+            unitPrecision: 5,
+            selectorBlackList: [],
+            replace: true,
+            mediaQuery: false,
+            minPixelValue: 0,
+            exclude: /node_modules/i,
+          }),
+        ],
       },
     },
   };

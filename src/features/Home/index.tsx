@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./Home.scss";
 // import HomeSocial from "./HomeSocial";
 
 // Image

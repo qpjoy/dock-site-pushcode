@@ -34,7 +34,7 @@ function Member() {
       </div>
 
       <div className="member_container">
-        <div className="member_title">月会员</div>
+        <div className="member_title">季会员</div>
         <div className="member_price">
           <span>￥36 </span>/月
         </div>
@@ -54,7 +54,7 @@ function Member() {
       </div>
 
       <div className="member_container">
-        <div className="member_title">月会员</div>
+        <div className="member_title">年会员</div>
         <div className="member_price">
           <span>￥108 </span>/月
         </div>

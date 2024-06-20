@@ -23,11 +23,7 @@ function LiveSection() {
           ))}
       </div>
 
-      <Download
-        style={{
-          margin: "2rem auto 0",
-        }}
-      />
+      <Download />
     </section>
   );
 }

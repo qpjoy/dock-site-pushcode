@@ -15,8 +15,10 @@
     "@emotion/styled": "^11.11.5",
     "@mdx-js/rollup": "^3.0.1",
     "@mui/material": "^5.15.20",
+    "amfe-flexible": "^2.2.1",
     "classnames": "^2.5.1",
     "gsap": "^3.12.5",
+    "postcss-pxtorem": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
@@ -27,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
+    "@types/postcss-pxtorem": "^6.0.3",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@types/scrollreveal": "^0.0.11",
@@ -36,6 +39,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
