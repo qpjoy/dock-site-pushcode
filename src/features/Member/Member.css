@@ -64,8 +64,170 @@
   margin-right: 0.5rem;
 }
 
+@media screen and (max-width: 500px) {
+  .member {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+  }
+
+  .member_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .member_title {
+    font-weight: bold;
+    font-size: 0.25rem;
+    color: var(--text-title);
+  }
+
+  .member_price {
+    font-size: 0.25rem;
+    color: var(--text-content);
+  }
+
+  .member_price span {
+    font-size: 0.5rem;
+    color: var(--text-title);
+  }
+
+  .member_discount {
+    margin: 0.5rem 0;
+    font-size: 0.25rem;
+  }
+
+  .member_contact a {
+    font-size: 0.25rem;
+    padding: 0;
+    padding: 0.25rem 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .member_device {
+    font-size: 0.25rem;
+    padding: 0.3rem 0;
+  }
+
+  .member_device img {
+    margin-right: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .member {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .member_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.15rem;
+    border-radius: 10px;
+  }
+
+  .member_title {
+    font-weight: bold;
+    font-size: 0.12rem;
+    color: var(--text-title);
+  }
+
+  .member_price {
+    font-size: 0.12rem;
+    color: var(--text-content);
+  }
+
+  .member_price span {
+    font-size: 0.3rem;
+    color: var(--text-title);
+  }
+
+  .member_discount {
+    margin: 0.24rem 0;
+    font-size: 0.12rem;
+  }
+
+  .member_contact a {
+    font-size: 0.12rem;
+    padding: 0;
+    padding: 0.06rem 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .member_device {
+    font-size: 0.12rem;
+    padding: 0.15rem 0;
+  }
+
+  .member_device img {
+    margin-right: 0.06rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .member {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .member_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.15rem;
+    border-radius: 10px;
+  }
+
+  .member_title {
+    font-weight: bold;
+    font-size: 0.12rem;
+    color: var(--text-title);
+  }
+
+  .member_price {
+    font-size: 0.12rem;
+    color: var(--text-content);
+  }
+
+  .member_price span {
+    font-size: 0.3rem;
+    color: var(--text-title);
+  }
+
+  .member_discount {
+    margin: 0.24rem 0;
+    font-size: 0.12rem;
+  }
+
+  .member_contact a {
+    font-size: 0.12rem;
+    padding: 0;
+    padding: 0.06rem 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .member_device {
+    font-size: 0.12rem;
+    padding: 0.15rem 0;
+  }
+
+  .member_device img {
+    margin-right: 0.06rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .member {
+    gap: 0.2rem;
     margin-left: auto;
     margin-right: auto;
   }

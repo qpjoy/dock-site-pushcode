@@ -5,6 +5,7 @@ import "./Header.scss";
 
 // Icons
 import { BiMenuAltRight } from "react-icons/bi";
+import { TbMenuDeep } from "react-icons/tb";
 
 function Header() {
   const [isMenuActive, setMenuActive] = useState(false);
@@ -29,7 +30,7 @@ function Header() {
   return (
     <header>
       <nav className="nav bd_grid">
-        <a href="#" className="nav_logo">
+        <a href="/pushcode/" className="nav_logo">
           PushCode推流助手
         </a>
 
@@ -46,7 +47,7 @@ function Header() {
         </ul>
 
         <i className="toggleMenu" onClick={toggleActive}>
-          <BiMenuAltRight />
+          <TbMenuDeep />
         </i>
       </nav>
     </header>

@@ -1,4 +1,4 @@
-import "./Live.css";
+import "./Live.scss";
 
 import LiveImages from "./LiveImage";
 import ImageContainer from "./ImageContainer";

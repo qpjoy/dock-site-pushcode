@@ -1,6 +1,7 @@
 .home {
   position: relative;
-  height: calc(100vh - 3rem);
+  height: 6rem;
+  // height: calc(100vh - 3rem);
   /* row-gap: 1rem; */
 }
 .home.section {
@@ -10,14 +11,14 @@
 
 .home_bg {
   position: absolute;
-  height: 80vh;
+  height: 5rem;
   width: 100%;
   background-image: url("../../assets/BG.png");
   background-size: cover;
 }
 
 .zhibo-box {
-  height: 93vh;
+  height: 6rem;
   /* background-color: #2cc245; */
 }
 
@@ -30,8 +31,8 @@
   /* width: 80%; */
   /* min-width: 780px;
   min-width: 530px; */
-  height: 26vh;
-  min-height: 160px;
+  height: 2.5rem;
+  // min-height: 160px;
   padding: 1rem;
   left: 10%;
   top: 50%;
@@ -69,6 +70,7 @@
   display: flex;
   /* width: 80%;
   margin: auto; */
+  padding-top: 0.5rem;
   font-weight: 600;
   flex-direction: column;
   align-items: center;
@@ -281,74 +283,203 @@
   transition: transform 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 500px) {
+  .home {
+    height: 6rem;
+  }
+
+  .home_bg {
+    height: 5rem;
+  }
+
+  .zhibo-box {
+    height: 6rem;
+  }
+
+  .use-pushcode {
+    padding: 0;
+    font-size: 10px;
+    .use-title {
+      font-size: 0.5rem;
+    }
+
+    .use-content {
+      margin: 0.1rem 0 0.12rem;
+      font-size: 0.25rem;
+    }
+
+    .use-content a {
+      color: #ec6a5e;
+    }
+
+    .use-download {
+      padding: 0.08rem 0.15rem;
+      width: 2rem;
+      font-size: 0.25rem;
+    }
+  }
+
+  .why-item {
+    span {
+      font-size: 0.25rem;
+    }
+  }
+
+  .why-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    gap: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .home {
+    height: 6rem;
+  }
+
+  .home_bg {
+    height: 5rem;
+  }
+
+  .zhibo-box {
+    height: 6rem;
+  }
+
+  .use-pushcode {
+    padding: 0;
+    font-size: 10px;
+    .use-title {
+      font-size: 0.35rem;
+    }
+
+    .use-content {
+      margin: 0.1rem 0 0.12rem;
+      font-size: 0.15rem;
+    }
+
+    .use-content a {
+      color: #ec6a5e;
+    }
+
+    .use-download {
+      padding: 0.08rem 0.15rem;
+      width: 1.3rem;
+      font-size: 0.15rem;
+    }
+  }
+
+  .why-item {
+    span {
+      font-size: 0.18rem;
+    }
+  }
+
+  .why-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    gap: 0.6rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .home {
-    height: 100vh;
+    height: 6rem;
   }
 
-  .home_data {
-    align-self: flex-end;
+  .home_bg {
+    height: 5rem;
   }
 
-  .homeSocial {
-    padding-top: 0;
-    padding-bottom: 2.5rem;
-    flex-direction: row;
-    /* align-self: flex-end; */
+  .zhibo-box {
+    height: 6rem;
   }
 
-  .homeSocial a {
-    margin-bottom: 0;
-    margin-right: var(--mb-4);
+  .use-pushcode {
+    padding: 0;
+    font-size: 10px;
+    .use-title {
+      font-size: 0.35rem;
+    }
+
+    .use-content {
+      margin: 0.1rem 0 0.12rem;
+      font-size: 0.15rem;
+    }
+
+    .use-content a {
+      color: #ec6a5e;
+    }
+
+    .use-download {
+      padding: 0.08rem 0.15rem;
+      width: 1.3rem;
+      font-size: 0.15rem;
+    }
   }
 
-  .home_img {
-    width: 457px;
-    bottom: 0%;
+  .why-item {
+    span {
+      font-size: 0.18rem;
+    }
   }
 
-  .home_img .profileBg {
-    width: 400px;
-    left: 0%;
+  .why-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    gap: 0.6rem;
   }
 
-  .home_img .profileImg {
-    width: 400px;
-  }
+  // .smiley {
+  //   width: 70px;
+  // }
 
-  .smiley {
-    width: 70px;
-  }
+  // .Star1 {
+  //   width: 100px;
+  // }
 
-  .Star1 {
-    width: 100px;
-  }
+  // .Star2 {
+  //   width: 70px;
+  // }
 
-  .Star2 {
-    width: 70px;
-  }
+  // .Star3 {
+  //   width: 50px;
+  // }
 
-  .Star3 {
-    width: 50px;
-  }
+  // .box {
+  //   width: 160px;
+  //   height: 60px;
+  // }
 
-  .box {
-    width: 160px;
-    height: 60px;
-  }
+  // .box .ContentBox h2 {
+  //   font-size: 14px;
+  // }
 
-  .box .ContentBox h2 {
-    font-size: 14px;
-  }
-
-  .box .ContentBox p {
-    font-size: 12px;
-  }
+  // .box .ContentBox p {
+  //   font-size: 12px;
+  // }
 }
 
 @media screen and (min-width: 1024px) {
   .home_img {
     right: 10%;
+  }
+
+  .home {
+    height: 6rem;
+  }
+
+  .home_bg {
+    height: 5rem;
+  }
+
+  .zhibo-box {
+    height: 6rem;
   }
 
   // .section_title_ {
@@ -358,6 +489,7 @@
   // }
 
   .use-pushcode {
+    height: 2rem;
     font-size: 10px;
     .use-title {
       font-size: 0.35rem;
