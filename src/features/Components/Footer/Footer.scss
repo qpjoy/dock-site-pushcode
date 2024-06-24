@@ -84,16 +84,32 @@ footer {
 
 @media screen and (min-width: 1024px) {
   footer {
-    padding: 0.3rem 0.1rem;
+    padding: 0.2rem 0.1rem;
 
     .footer_title {
-      font-size: 0.14rem;
-      margin-bottom: var(--mb-4);
+      font-size: 0.125rem;
+      margin-bottom: 0.15rem;
     }
 
     .footer_link,
     .copy_right {
-      font-size: 0.111rem;
+      font-size: 0.1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  footer {
+    padding: 0.2rem 0.1rem;
+
+    .footer_title {
+      font-size: 0.15rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .footer_link,
+    .copy_right {
+      font-size: 0.1rem;
     }
   }
 }

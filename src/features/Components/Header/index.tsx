@@ -4,7 +4,6 @@ import MenuLink from "./MenuLink.js";
 import "./Header.scss";
 
 // Icons
-import { BiMenuAltRight } from "react-icons/bi";
 import { TbMenuDeep } from "react-icons/tb";
 
 function Header() {

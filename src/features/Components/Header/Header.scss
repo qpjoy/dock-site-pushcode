@@ -140,7 +140,7 @@ header {
       // width: 50%;
       // height: 100vh;
       font-size: 0.5rem;
-      padding: 2rem;
+      padding: 0.25rem 0.8rem;
       background-color: var(--primary-color);
       transition: 0.5s;
 
@@ -226,14 +226,14 @@ header {
       height: 0.5rem;
       padding: 0 10%;
       ul li {
-        font-size: 0.15625rem;
+        font-size: 0.13625rem;
         margin-left: var(--lg-4);
         margin-bottom: 0;
       }
     }
 
     .nav .nav_logo {
-      font-size: 0.15625rem /* 25/16 */;
+      font-size: 0.13625rem /* 25/16 */;
     }
 
     ul {
@@ -274,17 +274,45 @@ header {
     .nav {
       // padding-left: 1rem;
       // padding-right: 1rem;
-      height: 0.5rem;
+      height: 0.35rem;
       padding: 0 10%;
       ul li {
-        font-size: 0.15625rem;
+        font-size: 0.11125rem;
         margin-left: var(--lg-4);
         margin-bottom: 0;
       }
     }
 
     .nav .nav_logo {
-      font-size: 0.15625rem /* 25/16 */;
+      font-size: 0.11125rem /* 25/16 */;
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: transparent;
+    padding: 0;
+
+    .nav {
+      // padding-left: 1rem;
+      // padding-right: 1rem;
+      height: 0.25rem;
+      padding: 0 10%;
+      ul li {
+        font-size: 0.1rem;
+        margin-left: var(--lg-4);
+        margin-bottom: 0;
+      }
+    }
+
+    .nav .nav_logo {
+      font-size: 0.1rem /* 25/16 */;
     }
   }
 }
